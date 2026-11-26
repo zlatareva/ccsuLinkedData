@@ -1,0 +1,33 @@
+PREFIX :        <https://zlatareva.github.io/ccsuLinkedData/catalog.ttl#> 
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema:  <https://schema.org/>
+
+:CompScBA  dcterms:source    <https://ccsu.smartcatalogiq.com/en/2025-2026/undergraduate-graduate-catalog/undergraduate-majors/computer-science-ba/>;
+        :requiresCoreCourse  :CS253 , :CS152 , :CS151 .
+
+:CS151  a                           schema:Course;
+        dcterms:source              <https://ccsu.smartcatalogiq.com/2025-2026/undergraduate-graduate-catalog/all-courses/cs-computer-science/100/cs-151>;
+        schema:courseCode           "CS151";
+        schema:coursePrerequisites  "May be taken concurrently or Grade C- or better in (MATH 135 or MATH 152 or MATH 217 or MATH 218) or placement test."@en;
+        schema:name                 "Computer Science I"@en;
+        schema:numberOfCredits      3 .
+
+:CybersecBS  dcterms:source  <https://ccsu.smartcatalogiq.com/en/2025-2026/undergraduate-graduate-catalog/undergraduate-majors/cybersecurity-bs/>;
+        :requiresCoreCourse  :CS253 , :CS152 , :CS151 .
+
+:CompScBS  dcterms:source    <https://ccsu.smartcatalogiq.com/en/2025-2026/undergraduate-graduate-catalog/undergraduate-majors/computer-science-bs/>;
+        :requiresCoreCourse  :CS253 , :CS152 , :CS151 .
+
+:CS253  a                           schema:Course;
+        dcterms:source              <https://ccsu.smartcatalogiq.com/en/2025-2026/undergraduate-graduate-catalog/all-courses/cs-computer-science/200/cs-253>;
+        schema:courseCode           "CS 253";
+        schema:coursePrerequisites  "A grade of C- or better in CS 152 and in one of MATH 135, MATH 152, MATH 217, or MATH 218."@en;
+        schema:name                 "Data Structures and Introduction to Algorithms"@en;
+        schema:numberOfCredits      3 .
+
+:CS152  a                           schema:Course;
+        dcterms:source              <https://ccsu.smartcatalogiq.com/2025-2026/undergraduate-graduate-catalog/all-courses/cs-computer-science/100/cs-152>;
+        schema:courseCode           "CS152";
+        schema:coursePrerequisites  "Grade C- or better in CS 151 and (MATH 135 or MATH 152 or MATH 217 or MATH 218)."@en;
+        schema:name                 "Computer Science II"@en;
+        schema:numberOfCredits      3 .
