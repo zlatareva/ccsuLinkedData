@@ -5,9 +5,7 @@
 :CCSUCatalog a dcat:Dataset ;
     dcterms:title "CCSU Catalog - Selected Computer Science Data"@en ;
     dcterms:description
-        "An illustrative RDF dataset describing selected CCSU
-         courses and degree-program requirements from the
-         2025-2026 university catalog."@en ;
+        "An illustrative RDF dataset describing selected CCSU courses and degree-program requirements from the 2025-2026 university catalog."@en ;
     dcat:landingPage
         <https://github.com/zlatareva/ccsuLinkedData> ;
     dcat:distribution :CatalogTurtle .
